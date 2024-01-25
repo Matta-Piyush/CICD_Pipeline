@@ -24,3 +24,13 @@ jobs:
       - name: Unit Tests
         run: |
           python -m unittest discover
+    
+  deploy:
+    name: deploy_stage
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: DeployingCode
+        run: |
+        
+
