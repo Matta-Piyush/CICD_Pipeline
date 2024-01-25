@@ -1,10 +1,11 @@
-name: CICD_PIPELINE
+name: CICD PIPELINE
 
 on:
   push:
 
 jobs:
   build:
+    name: build_stage
     runs-on: ubuntu-latest
 
     steps:
