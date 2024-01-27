@@ -35,6 +35,8 @@ jobs:
           python -m unittest discover
 
       - name: Creating CML Report 
+        env:
+          REPO_TOKEN: ${{secrets.MY_TOKEN}}
         run: |
           echo "Report" >> Report.md
           echo "Bar Plot" >> Report.md
