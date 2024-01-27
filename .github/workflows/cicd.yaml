@@ -43,7 +43,7 @@ jobs:
           echo '![](./bars.png "Bar Plot")' >> Report.md
 
           cml comment create Report.md
-          cml comment hows the performance
+          
 
     
   
